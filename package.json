@@ -1,7 +1,7 @@
 {
   "name": "pedro-nemer-business-hub",
   "private": true,
-  "version": "3.1.1",
+  "version": "3.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
@@ -9,7 +9,6 @@
     "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
     "vite": "latest",
     "react": "latest",
     "react-dom": "latest"
