@@ -1,39 +1,49 @@
-# Pedro Nemer Business Hub
+# Pedro Nemer Business Hub — V3
 
-Primeira versão do hub pessoal de Pedro Nemer, em React + Vite.
+Site institucional interativo do ecossistema Pedro Nemer.
+
+## Marcas e seções
+1. Pedro Nemer — apresentação pessoal
+2. ÁPICE GROWTH MARKETING — tráfego pago, estruturação comercial e vendas
+3. AUTOM CRM — https://automcrm.com.br/
+4. ÁPICE FLOW — https://siteapice-liard.vercel.app/
+5. Produtos digitais e materiais
+6. Academia do Empreendedor
+7. Projetos futuros
+8. Contato e WhatsApp
+
+## Arquivos
+- `src/main.jsx`: estrutura e conteúdo do site
+- `src/styles.css`: identidade visual, responsividade e animações
+- `public/pedro-nemer.jpg`: fotografia fornecida pelo cliente
+- `public/autom-logo.png`: logotipo AUTOM CRM fornecido
+- `public/apiceflow-logo.png`: logotipo ÁPICE FLOW fornecido
 
 ## Desenvolvimento local
-1. Instale Node.js LTS.
-2. Na pasta do projeto, execute `npm install`.
-3. Execute `npm run dev` para abrir o ambiente local.
-4. Execute `npm run build` para gerar a pasta `dist`.
+Requer Node.js instalado.
 
-## Publicação na StayCloud
-1. Envie este projeto para um repositório GitHub chamado `pedro-nemer-business-hub`.
-2. Na StayCloud, abra Deploy IA e importe o repositório.
-3. Framework/build: Vite (ou detecção automática).
-4. Build command: `npm run build`.
-5. Output directory: `dist`.
-6. Publique e valide a URL temporária antes de conectar o domínio definitivo.
+```bash
+npm install
+npm run dev
+```
 
-## Domínio
-O domínio informado mais recentemente foi `pedroneme.com.br`. Antes de configurar DNS, confirme se o endereço final será:
-- `pedroneme.com.br` (domínio raiz), ou
-- `pedronemer.apicegrowthmarketing.com.br` (subdomínio anteriormente informado).
+## Build de produção
 
-Não altere DNS antes de confirmar o domínio escolhido e os registros fornecidos pela StayCloud.
+```bash
+npm run build
+```
 
-## Personalização pendente
-- Substituir o espaço de foto em `src/main.jsx` pela fotografia real.
-- Preencher os links de Instagram, YouTube e LinkedIn no objeto `links`.
-- Adicionar materiais gratuitos e produtos digitais reais quando os destinos estiverem prontos.
-- Revisar textos e links comerciais antes da publicação.
+O Vite gera a pasta `dist`, que deve ser usada como diretório de saída no deploy.
 
-## Links já configurados
-- Apps Flow: https://siteapice-liard.vercel.app/
-- Autom: https://automcrm.com.br/
-- WhatsApp: https://wa.me/5596984262026
+## Configuração sugerida na StayCloud
+- Repositório: `pedronemerr/pedro-nemer-business-hub`
+- Branch: `main`
+- Framework: Vite
+- Diretório raiz: `./`
+- Comando de build: `npm run build`
+- Diretório de saída: `dist`
 
 ## Observações
-- Materiais e produtos ainda aparecem como áreas "em breve", sem links fictícios.
-- Nenhum pixel de rastreamento foi ativado nesta versão. Configure GA4/Meta Pixel somente após fornecer os IDs corretos e definir o aviso/consentimento de privacidade.
+- O logotipo da ÁPICE GROWTH MARKETING ainda não foi fornecido; por isso, a seção utiliza um lettering tipográfico provisório, sem inventar um símbolo oficial.
+- Os mockups de CRM e materiais digitais são ilustrações conceituais, não capturas reais das plataformas.
+- Materiais e produtos sem links confirmados aparecem como vitrine conceitual/em breve.
