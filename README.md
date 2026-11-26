@@ -31,7 +31,7 @@ Não altere DNS antes de confirmar o domínio escolhido e os registros fornecido
 
 ## Links já configurados
 - Apps Flow: https://siteapice-liard.vercel.app/
-- Alton CRM: https://automcrm.com.br/
+- Autom: https://automcrm.com.br/
 - WhatsApp: https://wa.me/5596984262026
 
 ## Observações

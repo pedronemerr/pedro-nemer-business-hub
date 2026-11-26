@@ -1,12 +1,12 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { ArrowUpRight, ArrowRight, Workflow, ChartNoAxesCombined, Database, BookOpen, ShoppingBag, Instagram, Youtube, Linkedin, MessageCircle, Sparkles, Zap, Menu } from 'lucide-react';
+import { ArrowUpRight, ArrowRight, Workflow, ChartNoAxesCombined, Database, BookOpen, ShoppingBag, Camera, Play, Briefcase, MessageCircle, Sparkles, Zap, Menu } from 'lucide-react';
 import './styles.css';
 
 const WHATSAPP = 'https://wa.me/5596984262026';
 const links = {
   appsFlow: 'https://siteapice-liard.vercel.app/',
-  alton: 'https://automcrm.com.br/',
+  autom: 'https://automcrm.com.br/',
   whatsapp: WHATSAPP,
   // Preencha as URLs oficiais das redes sociais quando desejar publicá-las.
   instagram: '',
@@ -44,9 +44,9 @@ function App() {
             <a className="button button-ghost" href={WHATSAPP} target="_blank" rel="noreferrer"><MessageCircle size={17}/> Falar comigo</a>
           </div>
           <div className="social-row">
-            <ExternalLink href={links.instagram}><Instagram size={17}/> Instagram</ExternalLink>
-            <ExternalLink href={links.youtube}><Youtube size={17}/> YouTube</ExternalLink>
-            <ExternalLink href={links.linkedin}><Linkedin size={17}/> LinkedIn</ExternalLink>
+            <ExternalLink href={links.instagram}><Camera size={17}/> Instagram</ExternalLink>
+            <ExternalLink href={links.youtube}><Play size={17}/> YouTube</ExternalLink>
+            <ExternalLink href={links.linkedin}><Briefcase size={17}/> LinkedIn</ExternalLink>
           </div>
         </div>
         <div className="hero-visual">
@@ -85,9 +85,9 @@ function App() {
             <span className="text-link">Conhecer o produto <ArrowRight size={16}/></span>
             <div className="card-orb"/>
           </ExternalLink>
-          <ExternalLink href={links.alton} className="product-card alton-card" label="Conhecer Alton CRM">
+          <ExternalLink href={links.autom} className="product-card autom-card" label="Conhecer Autom">
             <div className="product-top"><span className="product-icon"><Database size={23}/></span><span className="product-arrow"><ArrowUpRight size={18}/></span></div>
-            <span className="card-kicker">GESTÃO COMERCIAL</span><h3>Alton CRM</h3>
+            <span className="card-kicker">GESTÃO COMERCIAL</span><h3>Autom</h3>
             <p>Organização comercial para acompanhar oportunidades, processos e relacionamento com clientes.</p>
             <span className="text-link">Conhecer a plataforma <ArrowRight size={16}/></span>
             <div className="card-orb"/>
